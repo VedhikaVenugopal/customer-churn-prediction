@@ -4,27 +4,6 @@ A machine learning project to predict customer churn using classification techni
 📌 Problem Statement
 Customer churn is a critical business problem. This project builds a predictive model that identifies customers likely to churn, enabling proactive retention strategies.
 
-🗂️ Project Structure
-customer-churn-prediction/
-│
-├── data/
-│   ├── raw/                  # Original dataset
-│   └── processed/            # Cleaned & preprocessed data
-│
-├── notebooks/
-│   └── EDA.ipynb             # Exploratory Data Analysis
-│   └── model_training.ipynb  # Model building and evaluation
-│
-├── src/
-│   ├── preprocess.py         # Data preprocessing & feature engineering
-│   ├── train.py              # Model training script
-│   └── evaluate.py           # Evaluation metrics
-│
-├── models/
-│   └── best_model.pkl        # Saved trained model
-│
-├── requirements.txt
-└── README.md
 
 ⚙️ Tech Stack
 
@@ -47,11 +26,6 @@ Identifying At-Risk Customers
 📊 Results
 ModelAccuracyPrecisionRecallROC-AUC(fill once done)----
 
-🚀 How to Run
-bashgit clone https://github.com/VedhikaVenugopal/customer-churn-prediction.git
-cd customer-churn-prediction
-pip install -r requirements.txt
-python src/train.py
 
 📬 Contact
 Vedhika Venugopal
